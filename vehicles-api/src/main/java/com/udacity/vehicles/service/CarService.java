@@ -33,6 +33,7 @@ public class CarService {
      * @return a list of all vehicles in the CarRepository
      */
     public List<Car> list() {
+
         return repository.findAll();
     }
 
